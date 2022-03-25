@@ -2,8 +2,10 @@ import java.util.Scanner;
 
 public class PasswordValidation {
     public static void main(String[] args) {
-        System.out.println(getPassword());
-        System.out.println(isPasswordValid("abcdefgh"));
+//        System.out.println(getPassword());
+//        Testkommentar hinzugefügt
+
+        System.out.println(isPasswordValid(getPassword()));
 
     }
 
