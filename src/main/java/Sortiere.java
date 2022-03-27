@@ -3,14 +3,17 @@ public class Sortiere {
         // itterativer Ansatz
         int[] intArray = {8, 3, 5, 1, 0, 0, 17, -1};
 
+        System.out.println("Sortieren mit geschachtelter for-Schleife");
         printArray(intArray);
         sort(intArray);
         printArray(intArray);
 
         // rekursiver Ansatz
-        //int[] intArray2 = {8, 3, 5, 1, 0, 0, 17, -1};
-        int[] intArray2 = {};
+        int[] intArray2 = {8, 3, 5, 1, 0, 0, 17, -1};
+        //int[] intArray2 = {2};
 
+        System.out.println();
+        System.out.println("Sortieren mit rekursiven Aufruf");
         printArray(intArray2);
         sortR(intArray2, intArray2.length);
         printArray(intArray2);
